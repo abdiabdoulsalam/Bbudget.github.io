@@ -1,0 +1,295 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.titre {
+    text-align: center;
+}
+
+.titre .p1 {
+    color: #0C5E69;
+    font-size: 12px;
+}
+
+.titre span {
+    color: #D1C000;
+}
+
+.titre h1 {
+    color: #0C5E69;
+}
+
+.pbudget {
+    text-align: center;
+    padding: 8%;
+}
+
+.pdepenses {
+    text-align: center;
+}
+
+.psolde {
+    text-align: center;
+}
+
+/* 
+*/
+.model {
+    display: none;
+    position: fixed;
+    z-index: -1;
+    padding-top: 100px;
+    padding: 10px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.modelcontentgeneral {
+    display: block;
+}
+
+/* 
+*/
+.input>.t-input {
+    margin-bottom: 40px;
+}
+
+.input>.m-input {
+    margin-bottom: 60px;
+}
+
+.input .m {
+    color: #0C5E69;
+    padding-right: 100px;
+    font-weight: 400;
+}
+
+.input .t {
+    color: #0C5E69;
+    padding-right: 250px;
+    font-weight: 400;
+}
+
+.input input {
+    width: 300px;
+    height: 35px;
+    border-radius: 2%;
+    padding-left: 15px;
+}
+
+.button {
+    display: block;
+}
+
+.valide {
+    padding: 10px 125px;
+    background-color: #0C5E69;
+    color: #fff;
+    display: block;
+}
+
+.titre h1 {
+    color: #0C5E69;
+}
+
+
+.ajdp {
+    color: #0C5E69;
+    font-size: large;
+    padding: 55px;
+    font-weight: 400;
+}
+
+
+/** 
+    
+**/
+.modal-content {
+    margin: 10px;
+    margin-left: 570px;
+    padding: 70px;
+    width: 50%;
+}
+
+.close {
+    color: gray;
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+
+}
+
+
+/* Revenu */
+.input>.tr-input {
+    margin-bottom: 40px;
+}
+
+.input>.mr-input {
+    margin-bottom: 60px;
+}
+
+.input .mr {
+    color: #0C5E69;
+    padding-right: 100px;
+    font-weight: 400;
+}
+
+.input .tr {
+    color: #0C5E69;
+    padding-right: 250px;
+    font-weight: 400;
+}
+
+.revenumodel {
+    display: none;
+    margin-left: 630px;
+}
+
+.input input {
+    width: 300px;
+    height: 35px;
+    border-radius: 2%;
+    padding-left: 15px;
+}
+
+.button {
+    display: block;
+}
+
+#valide-revenu {
+    padding: 10px 125px;
+    background-color: #0C5E69;
+    color: #fff;
+    display: block;
+}
+
+.titre h1 {
+    color: #0C5E69;
+}
+
+.budget-ajoute {
+    color: #0C5E69;
+    font-size: large;
+    padding: 55px;
+    font-weight: 400;
+}
+
+/* Revenu*/
+
+.grandmather {
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    padding: 50px;
+    overflow: auto;
+}
+
+.mather1 {
+    margin-right: 200px;
+}
+
+.mather2 {
+    margin-left: 200px;
+}
+
+.div1 {
+    width: 250px;
+    height: 40px;
+    background-color: #0C5E69;
+    position: relative;
+    z-index: 1;
+}
+
+.d1div {
+    justify-content: center;
+    padding: 8%;
+    display: flex;
+}
+
+.div2 {
+    width: 250px;
+    height: 70px;
+    box-shadow: 20px 15px 35px rgba(0, 0, 0, 0.3);
+    position: relative;
+    z-index: 0;
+}
+
+.p2 {
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/** 
+    tableau css 
+**/
+
+.tableau-style {
+    border-collapse: collapse;
+    min-width: 86%;
+    width: auto;
+    cursor: pointer;
+    border: 1px solid #000;
+}
+
+thead tr {
+    background-color: #0C5E69;
+    color: #fff;
+    text-align: left;
+}
+
+th,
+td {
+    padding: 15px 20px;
+}
+
+tbody tr,
+td,
+th {
+    border: 1px solid #ddd;
+}
+
+.tableau {
+    margin-left: 200px;
+}
+
+.tableau>* {
+    margin-bottom: 40px;
+}
+
+h3 {
+    color: #D1C000;
+    font-weight: 400;
+}
+
+#adddepenseModelButton, #addrevenuModelButton {
+    text-decoration: none;
+    color: #D1C000;
+}
+
+.deleteButton {
+    padding: 10px 25px;
+    background: red;
+    color: #fff;
+}
+
+.deleteButtonRevenu {
+    padding: 10px 25px;
+    background: red;
+    color: #fff;
+}
+

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <title>Budget</title>
+</head>
+
+<body>
+    <div class="titre">
+        <h1>B<span>UDGET</span></h1>
+        <p class="p1">Gestion de budget</p>
+    </div>
+    <!-- revenu model  -->
+    <div class="revenumodel" id="revenumodel">
+        <div class="revenu-modal-content">
+            <h1 class="budget-ajoute">AJOUTER REVENU</h1>
+            <div class="form">
+                <form method="post">
+                    <div class="input">
+                        <h3 class="tr">TITRE</h3>
+                        <input type="text" class="tr-input" id="tr-input">
+                        <h3 class="mr">MONTANT</h3>
+                        <input type="number" class="mr-input" id="mr-input">
+                        <button class="valide-revenu" id="valide-revenu">VALIDER</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- depense model -->
+    <div class="model" id="depenseModel">
+        <div class="modal-content">
+            <h1 class="ajdp">AJOUTER DEPENSES</h1>
+            <div class="form">
+                <form method="post">
+                    <div class="input">
+                        <h3 class="t">TITRE</h3>
+                        <input type="text" class="t-input" id="t-input">
+                        <h3 class="m">MONTANT</h3>
+                        <input type="number" class="m-input" id="m-input">
+                        <button class="valide" id="valide">VALIDER</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- model general -->
+    <div class="modelcontentgeneral" id="modelcontentgeneral">
+        <div class="grandmather">
+            <div class="mather1">
+                <div class="div1">
+                    <p class="p2">Budget</p>
+                </div>
+                <div class="div2">
+                    <div class="d1div">
+                        <p class="p-budget" id="pbudget"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="mather">
+                <div class="div1">
+                    <p class="p2">Dépenses</p>
+                </div>
+                <div class="div2">
+                    <div class="1div">
+                        <div class="d1div">
+                            <p class="pdepenses" id="pdepenses"></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="mather2">
+                <div class="div1">
+                    <p class="p2">Solde</p>
+                </div>
+                <div class="div2">
+                    <div class="d1div">
+                        <p class="psolde" id="psolde"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="tableau">
+            <div class="liste">
+                <h3>Liste des dépenses</h3>
+            </div>
+            <div class="tab">
+                <table class="tableau-style">
+                    <thead>
+                        <tr>
+                            <th>TITRE</th>
+                            <th>MONTANT</th>
+                            <th>ACTIONS</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbody">
+                        <tr>
+                            <td><a id="adddepenseModelButton" type="button">AJOUTER DEPENSES</a></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!-- revenue -->
+        <div class="tableau">
+            <div class="liste">
+                <h3>Liste des revenu</h3>
+            </div>
+            <div class="tab">
+                <table class="tableau-style">
+                    <thead>
+                        <tr>
+                            <th>TITRE</th>
+                            <th>MONTANT</th>
+                            <th>ACTIONS</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tbodyrevenu">
+                        <tr>
+                            <td><a id="addrevenuModelButton" type="button">AJOUTER REVENU</a></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="index.js"></script>
+</body>
+
+</html>
